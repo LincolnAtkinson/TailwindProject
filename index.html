@@ -2,8 +2,53 @@
 <html lang="en">
     <head>
         <link href="app.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/0d1d579ea0.js" crossorigin="anonymous"></script>
     </head>
-    <body class="w-full h-screen bg-cover bg-no-repeat" style="background-image: url(images/pexels-adrien-olichon-2736139.jpg);">
-        
+    <body class="w-full h-screen bg-cover bg-no-repeat flex items-center justify-center" style="background-image: url(images/pexels-adrien-olichon-2736139.jpg);">
+        <div class="sideBar w-10 h-64 backdrop-blur-md bg-gray-600/80 border-gray-400 border-2 border-solid mr-4 rounded-3xl flex flex-col justify-around items-center">
+            <i class="fa-solid fa-circle-play fa-xl" style="color: #ff0000;"></i>
+            <i class="fa-solid fa-border-all fa-xl" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-tv fa-lg" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-podcast fa-xl" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-music fa-xl" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="mainBg w-2/3 h-5/6 backdrop-blur-md bg-gray-600/80 border-gray-400 border-2 border-solid rounded-3xl flex">
+            <div class="navSide w-3/12 rounded-l-3xl border-r-2 border-gray-400 bg-gray-600/30 flex items-center flex-col">
+                <img src="images/netflix-logo-png-clip-art.png" width="180">
+                <div class="navButtons w-3/5 h-36 flex flex-col justify-around mb-5">
+                    <div class="text-gray-100 flex flex-row items-center text-sm"><i class="fa-solid fa-circle-play fa-sm mr-3" style="color: #ff0000;"></i>Browse</div>
+                    <div class="text-gray-300 flex flex-row items-center text-sm"><i class="fa-regular fa-heart mr-3" style="color: gray-300;"></i>Wishlist</div>
+                    <div class="text-gray-300 flex flex-row items-center text-sm"><i class="fa-regular fa-calendar mr-3" style="color: gray-300;"></i>Coming Soon</div>
+                </div>
+                <div class="trailers text-gray-100 text-lg flex flex-col justify-between w-9/12 h-full pb-3">
+                    <span>New Trailers &#128293;</span>
+                    <div class="w-full h-28 rounded-xl bg-cover flex items-end" style="background-image: url(images/shadowandbone.jpg);">
+                        <div class="w-full h-6 backdrop-blur-md rounded-b-xl bg-white/30 flex justify-around items-center text-sm text-gray-300">
+                            <span>Shadow and Bone</span>
+                            <i class="fa-solid fa-circle-play fa-md" style="color: gray-700"></i>
+                        </div>
+                    </div>
+                    <div class="w-full h-28 rounded-xl bg-cover flex items-end" style="background-image: url(images/thenightagent.jpg);">
+                        <div class="w-full h-6 backdrop-blur-md rounded-b-xl bg-white/30 flex justify-around items-center text-sm text-gray-300">
+                            <span>The Night Agent</span>
+                            <i class="fa-solid fa-circle-play fa-md" style="color: gray-700"></i>
+                        </div>
+                    </div>
+                    <div class="w-full h-28 rounded-xl bg-cover flex items-end" style="background-image: url(images/thewitcher.webp);">
+                        <div class="w-full h-6 backdrop-blur-md rounded-b-xl bg-white/30 flex justify-around items-center text-sm text-gray-300">
+                            <span>The Witcher</span>
+                            <i class="fa-solid fa-circle-play fa-md" style="color: gray-700"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainPage">
+                <div class="topBar"></div>
+                <div class="suggested"></div>
+                <div class="popcorn"></div>
+                <div class="continue"></div>
+            </div>
+        </div>
     </body>
 </html>
