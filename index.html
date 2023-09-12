@@ -44,11 +44,30 @@
                 </div>
             </div>
             <div class="mainPage w-9/12 h-full rounded-r-3xl flex items-center flex-col justify-around">
-                <div class="topBar backdrop-blur-md w-11/12 h-16 bg-white/30"></div>
+                <div class="topBar w-11/12 h-12 flex items-center justify-between">
+                    <div class="text-gray-300 text-xl w-12 flex justify-between"><span class="text-gray-400">&lt;</span>&gt;</div>
+                    <div class="text-gray-400 backdrop-blur-sm bg-gray-200/20 rounded-xl w-2/5 flex items-center"><i class="fa-solid fa-microphone mx-2"></i>Search...</div><div></div><div></div><div></div>
+                    <div class="rounded-xl w-6 h-6 backdrop-blur-sm bg-gray-100/30 flex items-center justify-center"><i class="fa-regular fa-bell" style="color: #bdbdbd;"></i></div>
+                    <div class="w-1/5 h-10 rounded-xl backdrop-blur-sm bg-gray-100/30 flex items-center">
+                        <div class="mx-3 w-7 h-7 border-2 border-red-500 bg-cover rounded-xl" style="background-image: url(images/profile.jpg);"></div>
+                        <div>
+                            <div class="text-gray-200 text-xs font-bold">Samantha G.</div>
+                            <div class="text-gray-200 text-xs">@Samantha</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="suggested w-11/12 h-48 bg-cover rounded-xl flex justify-between items-center shadow-inner" style="background-image: url(images/peakyblinders.webp);">
                     <div class="h-5/6 ml-8 flex flex-col justify-between">
                         <img src="images/peakytext.png" width="140">
-                        <button class="w-16 h-7 bg-red-600 text-white text-sm rounded-xl">Watch</button>
+                        <div class="flex w-full justify-between">
+                            <button class="w-16 h-7 bg-red-600 text-white text-sm rounded-xl">Watch</button>
+                            <button class="w-12 h-full text-lg text-white text-center bg-gray-600 rounded-xl justify-between">&plus;</button>
+                        </div>
+                    </div>
+                    <div class="self-end mb-4 flex flex-row w-52 justify-around">
+                        <div class="w-14 h-9 rounded-xl bg-cover border-red-500 shadow-md shadow-red-500" style="background-image: url(images/smpeaky.jpg);"></div>
+                        <div class="w-14 h-9 rounded-xl bg-cover" style="background-image: url(images/gale_death.webp);"></div>
+                        <div class="w-14 h-9 rounded-xl bg-cover" style="background-image: url(images/office.webp);"></div>
                     </div>
                 </div>
                 <div class="popcorn backdrop-blur-md w-11/12 h-36 bg-white/30"></div>
